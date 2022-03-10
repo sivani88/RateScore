@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/buttonMettreAJour"
+            android:layout_width="327dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="84dp"
+            android:layout_marginEnd="70dp"
+            android:background="@color/teal_200"
+            android:contentDescription="@string/a"
+            android:text="@string/mettre_jour_le_nom_d_utilisateur"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.333"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonDeconnexion"
+            tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck" />
+
+        <Button
+            android:id="@+id/buttonDeconnexion"
+            android:layout_width="321dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="320dp"
+            android:layout_marginEnd="65dp"
+            android:contentDescription="@string/a"
+            android:text="@string/d_connexion"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.48"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/buttonSupprimerMonCompte"
+            android:layout_width="328dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginBottom="99dp"
+            android:background="@color/red"
+            android:contentDescription="@string/a"
+            android:text="@string/supprimer_mon_compte"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonMettreAJour" />
+
+        <ImageView
+            android:id="@+id/imageViewProfile"
+            android:layout_width="115dp"
+            android:layout_height="117dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="37dp"
+            android:contentDescription="@string/a"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="146dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="58dp"
+            android:contentDescription="@string/a"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/imageViewProfile"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="162dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="208dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="41dp"
+            android:contentDescription="@string/a"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

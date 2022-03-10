@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/people"
+        android:icon="@drawable/ic_emoji_people"
+        android:title="@string/friends" />
+    <item
+        android:id="@+id/list"
+        android:icon="@drawable/ic_chat"
+        android:title="@string/chat"
+        />
+    <item
+        android:id="@+id/workmates"
+        android:icon="@drawable/ic_sports_soccer"
+        android:title="@string/Score"/>
+    <item
+        android:id="@+id/Profile"
+        android:icon="@drawable/ic_sports_soccer"
+        android:title="@string/Score"/>
+
+
+</menu>
